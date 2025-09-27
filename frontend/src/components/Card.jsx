@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { useWeather } from "../context/Weather";
 
 const Card = () => {
@@ -7,7 +8,7 @@ const Card = () => {
   return (
     <div className="card">
       <img src={weather?.data?.current?.condition?.icon} alt="Weather IMG" />
-      <h2>{weather.data?.current?.temp_c}* C</h2>
+      <h2>{weather.data?.current?.temp_c}° C</h2>
       <h5>
         {weather.data?.location?.name}, {weather.data?.location?.region}{" "}
         {weather.data?.location?.country}

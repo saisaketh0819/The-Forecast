@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from "react";
 import { getWeatherDataForCity, getWeatherDataForLocation } from "../api";
+import { useEffect } from "react";
 const WeatherContext = createContext(null);
 
 export const useWeather = () => {
@@ -17,7 +18,6 @@ export const WeatherProvider = (props) => {
   };
 
   const fetchCurrentUserLocationData = async () => {
-    if(!searchCity) return;
   try {
     // Get the current position and store it in a variable
     const position = await new Promise((resolve, reject) => {
@@ -29,7 +29,7 @@ export const WeatherProvider = (props) => {
 
     // Pass the coordinates to getWeatherDataForLocation
     const data = await getWeatherDataForLocation(latitude, longitude);
-
+    console.log("Fetched weather data for current location:", data);
     // Update your state
     setData(data);
   } catch (error) {
@@ -37,6 +37,9 @@ export const WeatherProvider = (props) => {
   }
 };
 
+  useEffect(() => {
+    fetchCurrentUserLocationData();
+  }, []);
 
   return (
     <WeatherContext.Provider
