@@ -52,7 +52,7 @@ Your app will run on:
 
 ## 🌐 Live Demo
 
-🔗 **[View The Forecast Website](https://saisaketh0819.github.io/the-forecast/)**
+🔗 **[View The Forecast Website](https://saisaketh0819.github.io/The-Forecast/)**
 
 ---
 
@@ -68,13 +68,8 @@ Your app will run on:
 ## 👨‍💻 Author
 
 **CH Sai Saketh**  
-🔗 [LinkedIn](https://www.linkedin.com/in/saisaketh0819/)  
+🔗 [LinkedIn](https://www.linkedin.com/in/saisaketh27/)  
 💻 [GitHub](https://github.com/saisaketh0819)
 
 ---
 
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
