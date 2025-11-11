@@ -78,7 +78,3 @@ Your app will run on:
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
-
-📸 *Example Screenshot*  
-*(Add your own image here if you want — optional)*  
-![Weather Forecast Screenshot](./screenshots/preview.png)
