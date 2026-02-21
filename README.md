@@ -7,12 +7,12 @@ It allows users to search for any city and instantly view the current temperatur
 
 ## 🚀 Features
 
-- 🔍 **Search by city name** — get instant weather updates for any location.  
-- 🌡️ **Displays temperature, weather icon, and city details**.  
-- 🔄 **Refresh button** to quickly update current weather.  
-- 🧭 **Uses real-time data** from a public weather API.  
-- 💅 **Modern and responsive UI** designed with CSS.  
-- 🌙 **Dark theme layout** for better readability.
+-  **Search by city name** — get instant weather updates for any location.  
+-  **Displays temperature, weather icon, and city details**.  
+-  **Refresh button** to quickly update current weather.  
+-  **Uses real-time data** from a public weather API.  
+-  **Modern and responsive UI** designed with CSS.  
+-  **Dark theme layout** for better readability.
 
 ---
 
